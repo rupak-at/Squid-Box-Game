@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🦑 Squid Game Clone 🎮
 
-## Getting Started
+A fun interactive game inspired by the "Red Light, Green Light" challenge from Squid Game, built using **Next.js, Redux, and Tailwind CSS**.
 
-First, run the development server:
+## 🚀 Features
+- 🎭 **Randomized Image Switching** - The doll randomly switches between front and back views.
+- 🖱️ **Mouse Movement Tracking** - Move the shape towards the finish line while avoiding detection.
+- ❌ **Game Over Detection** - If you move while the doll is watching, you lose.
+- ✅ **Winning Condition** - Reach the finish line without being caught.
+- ⏳ **Timer Tracking** - Displays the time taken to complete the game.
+- 🎨 **Dynamic Shape Styling** - The shape can change in size and appearance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Screenshots
+![Gameplay Preview](./public/openingPage.png)
+![Gameplay Preview](./public/playing.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎮 How to Play
+- Click the **PLAY** button to start the game.
+- Move your mouse to advance the shape towards the finish line.
+- Stop moving when the doll is **facing forward**.
+- Reach **X: 700px** to **win**!
+- If you move while the doll is watching, you lose!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+Enjoy the game and challenge yourself! 🚀
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
