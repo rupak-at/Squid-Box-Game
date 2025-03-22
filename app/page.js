@@ -40,7 +40,7 @@ const SquidGame = () => {
         );
         setIsTransitioning(false);
       }, 0);
-    }, 3000);
+    }, timeDelay());
 
     //tracking the time of the game play
     const timer = setInterval(() => {
